@@ -9,6 +9,7 @@
 body {
     font-size: 2px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 body > div a {
@@ -2539,12 +2540,463 @@ body > div > div {
 	35em 27em black,
 	36em 27em black,
 	37em 27em black,
-	38em 27em black,
+	38em 27em black;
+}
+
+/*adidas*/
+
+.adidas-block:hover {
+	background: #185abd;
+}
+
+.adidas-block:hover a {
+	color: white;
+}
+
+.adidas {
+	box-shadow:
+
+	19em 11em #185abd,
+	20em 11em #185abd,
 
 
 
 
 
+	17em 12em #185abd,
+	18em 12em #185abd,
+	19em 12em #185abd,
+	20em 12em #185abd,
+	21em 12em #185abd,
 
-	40em 40em black;
+
+
+
+	15em 13em #185abd,
+	16em 13em #185abd,
+	17em 13em #185abd,
+	18em 13em #185abd,
+	19em 13em #185abd,
+	20em 13em #185abd,
+	21em 13em #185abd,
+	22em 13em #185abd,
+
+
+
+
+	14em 14em #185abd,
+	15em 14em #185abd,
+	16em 14em #185abd,
+	17em 14em #185abd,
+	18em 14em #185abd,
+	19em 14em #185abd,
+	20em 14em #185abd,
+	21em 14em #185abd,
+	22em 14em #185abd,
+	23em 14em #185abd,
+
+
+
+
+	15em 15em #185abd,
+	16em 15em #185abd,
+	17em 15em #185abd,
+	18em 15em #185abd,
+	19em 15em #185abd,
+	20em 15em #185abd,
+	21em 15em #185abd,
+	22em 15em #185abd,
+	23em 15em #185abd,
+	24em 15em #185abd,
+
+
+
+
+	16em 16em #185abd,
+	17em 16em #185abd,
+	18em 16em #185abd,
+	19em 16em #185abd,
+	20em 16em #185abd,
+	21em 16em #185abd,
+	22em 16em #185abd,
+	23em 16em #185abd,
+	24em 16em #185abd,
+	25em 16em #185abd,
+
+
+
+
+	17em 17em #185abd,
+	18em 17em #185abd,
+	19em 17em #185abd,
+	20em 17em #185abd,
+	21em 17em #185abd,
+	22em 17em #185abd,
+	23em 17em #185abd,
+	24em 17em #185abd,
+	25em 17em #185abd,
+	26em 17em #185abd,
+
+
+
+
+
+	13em 18em #185abd,
+	14em 18em #185abd,
+
+	18em 18em #185abd,
+	19em 18em #185abd,
+	20em 18em #185abd,
+	21em 18em #185abd,
+	22em 18em #185abd,
+	23em 18em #185abd,
+	24em 18em #185abd,
+	25em 18em #185abd,
+	26em 18em #185abd,
+	27em 18em #185abd,
+
+
+
+
+	11em 19em #185abd,
+	12em 19em #185abd,
+	13em 19em #185abd,
+	14em 19em #185abd,
+	15em 19em #185abd,
+
+	19em 19em #185abd,
+	20em 19em #185abd,
+	21em 19em #185abd,
+	22em 19em #185abd,
+	23em 19em #185abd,
+	24em 19em #185abd,
+	25em 19em #185abd,
+	26em 19em #185abd,
+	27em 19em #185abd,
+	28em 19em #185abd,
+
+
+
+
+	9em 20em #185abd,
+	10em 20em #185abd,
+	11em 20em #185abd,
+	12em 20em #185abd,
+	13em 20em #185abd,
+	14em 20em #185abd,
+	15em 20em #185abd,
+	16em 20em #185abd,
+
+	20em 20em #185abd,
+	21em 20em #185abd,
+	22em 20em #185abd,
+	23em 20em #185abd,
+	24em 20em #185abd,
+	25em 20em #185abd,
+	26em 20em #185abd,
+	27em 20em #185abd,
+	28em 20em #185abd,
+	29em 20em #185abd,
+
+
+
+
+	8em 21em #185abd,
+	9em 21em #185abd,
+	10em 21em #185abd,
+	11em 21em #185abd,
+	12em 21em #185abd,
+	13em 21em #185abd,
+	14em 21em #185abd,
+	15em 21em #185abd,
+	16em 21em #185abd,
+	17em 21em #185abd,
+
+	21em 21em #185abd,
+	22em 21em #185abd,
+	23em 21em #185abd,
+	24em 21em #185abd,
+	25em 21em #185abd,
+	26em 21em #185abd,
+	27em 21em #185abd,
+	28em 21em #185abd,
+	29em 21em #185abd,
+	30em 21em #185abd,
+
+
+
+
+	9em 22em #185abd,
+	10em 22em #185abd,
+	11em 22em #185abd,
+	12em 22em #185abd,
+	13em 22em #185abd,
+	14em 22em #185abd,
+	15em 22em #185abd,
+	16em 22em #185abd,
+	17em 22em #185abd,
+	18em 22em #185abd,
+
+	22em 22em #185abd,
+	23em 22em #185abd,
+	24em 22em #185abd,
+	25em 22em #185abd,
+	26em 22em #185abd,
+	27em 22em #185abd,
+	28em 22em #185abd,
+	29em 22em #185abd,
+	30em 22em #185abd,
+	31em 22em #185abd,
+
+
+
+
+	10em 23em #185abd,
+	11em 23em #185abd,
+	12em 23em #185abd,
+	13em 23em #185abd,
+	14em 23em #185abd,
+	15em 23em #185abd,
+	16em 23em #185abd,
+	17em 23em #185abd,
+	18em 23em #185abd,
+	19em 23em #185abd,
+
+	23em 23em #185abd,
+	24em 23em #185abd,
+	25em 23em #185abd,
+	26em 23em #185abd,
+	27em 23em #185abd,
+	28em 23em #185abd,
+	29em 23em #185abd,
+	30em 23em #185abd,
+	31em 23em #185abd,
+	32em 23em #185abd,
+
+
+
+
+
+	11em 24em #185abd,
+	12em 24em #185abd,
+	13em 24em #185abd,
+	14em 24em #185abd,
+	15em 24em #185abd,
+	16em 24em #185abd,
+	17em 24em #185abd,
+	18em 24em #185abd,
+	19em 24em #185abd,
+	20em 24em #185abd,
+
+	24em 24em #185abd,
+	25em 24em #185abd,
+	26em 24em #185abd,
+	27em 24em #185abd,
+	28em 24em #185abd,
+	29em 24em #185abd,
+	30em 24em #185abd,
+	31em 24em #185abd,
+	32em 24em #185abd,
+	33em 24em #185abd,
+
+
+
+
+	7em 25em #185abd,
+	8em 25em #185abd,
+
+	12em 25em #185abd,
+	13em 25em #185abd,
+	14em 25em #185abd,
+	15em 25em #185abd,
+	16em 25em #185abd,
+	17em 25em #185abd,
+	18em 25em #185abd,
+	19em 25em #185abd,
+	20em 25em #185abd,
+	21em 25em #185abd,
+
+	25em 25em #185abd,
+	26em 25em #185abd,
+	27em 25em #185abd,
+	28em 25em #185abd,
+	29em 25em #185abd,
+	30em 25em #185abd,
+	31em 25em #185abd,
+	32em 25em #185abd,
+	33em 25em #185abd,
+	34em 25em #185abd,
+
+
+
+
+	5em 26em #185abd,
+	6em 26em #185abd,
+	7em 26em #185abd,
+	8em 26em #185abd,
+	9em 26em #185abd,
+
+	13em 26em #185abd,
+	14em 26em #185abd,
+	15em 26em #185abd,
+	16em 26em #185abd,
+	17em 26em #185abd,
+	18em 26em #185abd,
+	19em 26em #185abd,
+	20em 26em #185abd,
+	21em 26em #185abd,
+	22em 26em #185abd,
+
+	26em 26em #185abd,
+	27em 26em #185abd,
+	28em 26em #185abd,
+	29em 26em #185abd,
+	30em 26em #185abd,
+	31em 26em #185abd,
+	32em 26em #185abd,
+	33em 26em #185abd,
+	34em 26em #185abd,
+	35em 26em #185abd,
+
+
+
+
+	3em 27em #185abd,
+	4em 27em #185abd,
+	5em 27em #185abd,
+	6em 27em #185abd,
+	7em 27em #185abd,
+	8em 27em #185abd,
+	9em 27em #185abd,
+	10em 27em #185abd,
+
+	14em 27em #185abd,
+	15em 27em #185abd,
+	16em 27em #185abd,
+	17em 27em #185abd,
+	18em 27em #185abd,
+	19em 27em #185abd,
+	20em 27em #185abd,
+	21em 27em #185abd,
+	22em 27em #185abd,
+	23em 27em #185abd,
+
+	27em 27em #185abd,
+	28em 27em #185abd,
+	29em 27em #185abd,
+	30em 27em #185abd,
+	31em 27em #185abd,
+	32em 27em #185abd,
+	33em 27em #185abd,
+	34em 27em #185abd,
+	35em 27em #185abd,
+	36em 27em #185abd,
+
+
+
+
+	2em 28em #185abd,
+	3em 28em #185abd,
+	4em 28em #185abd,
+	5em 28em #185abd,
+	6em 28em #185abd,
+	7em 28em #185abd,
+	8em 28em #185abd,
+	9em 28em #185abd,
+	10em 28em #185abd,
+	11em 28em #185abd,
+
+	15em 28em #185abd,
+	16em 28em #185abd,
+	17em 28em #185abd,
+	18em 28em #185abd,
+	19em 28em #185abd,
+	20em 28em #185abd,
+	21em 28em #185abd,
+	22em 28em #185abd,
+	23em 28em #185abd,
+	24em 28em #185abd,
+
+	28em 28em #185abd,
+	29em 28em #185abd,
+	30em 28em #185abd,
+	31em 28em #185abd,
+	32em 28em #185abd,
+	33em 28em #185abd,
+	34em 28em #185abd,
+	35em 28em #185abd,
+	36em 28em #185abd,
+	37em 28em #185abd,
+
+
+
+
+	3em 29em #185abd,
+	4em 29em #185abd,
+	5em 29em #185abd,
+	6em 29em #185abd,
+	7em 29em #185abd,
+	8em 29em #185abd,
+	9em 29em #185abd,
+	10em 29em #185abd,
+	11em 29em #185abd,
+	12em 29em #185abd,
+
+	16em 29em #185abd,
+	17em 29em #185abd,
+	18em 29em #185abd,
+	19em 29em #185abd,
+	20em 29em #185abd,
+	21em 29em #185abd,
+	22em 29em #185abd,
+	23em 29em #185abd,
+	24em 29em #185abd,
+	25em 29em #185abd,
+
+	29em 29em #185abd,
+	30em 29em #185abd,
+	31em 29em #185abd,
+	32em 29em #185abd,
+	33em 29em #185abd,
+	34em 29em #185abd,
+	35em 29em #185abd,
+	36em 29em #185abd,
+	37em 29em #185abd,
+	38em 29em #185abd,
+
+
+
+
+	4em 30em #185abd,
+	5em 30em #185abd,
+	6em 30em #185abd,
+	7em 30em #185abd,
+	8em 30em #185abd,
+	9em 30em #185abd,
+	10em 30em #185abd,
+	11em 30em #185abd,
+	12em 30em #185abd,
+	13em 30em #185abd,
+
+	17em 30em #185abd,
+	18em 30em #185abd,
+	19em 30em #185abd,
+	20em 30em #185abd,
+	21em 30em #185abd,
+	22em 30em #185abd,
+	23em 30em #185abd,
+	24em 30em #185abd,
+	25em 30em #185abd,
+	26em 30em #185abd,
+
+	30em 30em #185abd,
+	31em 30em #185abd,
+	32em 30em #185abd,
+	33em 30em #185abd,
+	34em 30em #185abd,
+	35em 30em #185abd,
+	36em 30em #185abd,
+	37em 30em #185abd,
+	38em 30em #185abd,
+	39em 30em #185abd;
 }
