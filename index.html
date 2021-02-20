@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>June Project2</title>
+		<title>12 Signs of Zodiac</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div class="mcd-block">
-			<a href="https://www.mcdonalds.com/ca/en-ca.html" target="_blank">mcdonalds</a>
-			<div class="mcdonalds">
-				
+		<nav role="navigation" class="main-nav">
+			<div class="menuToggle" onclick="myFunction()">
+				<span></span>
+				<span></span>
+				<span></span>
+
 			</div>
-		</div>
-		<div class="nike-block">
-			<a href="https://www.nike.com/ca/" target="_blank">nike</a>
-			<div class="nike">
-				
+
+			<div class="menu">
+				<div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-1.png" alt="aquarius"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-2.png" alt="pisces"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-3.png" alt="aries"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-4.png" alt="taurus"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-5.png" alt="gemini"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-6.png" alt="cancer"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-7.png" alt="leo"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-8.png" alt="virgo"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-9.png" alt="libra"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-10.png" alt="scorpio"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-11.png" alt="sagittarius"></div>
+					<div class="star"><img id="yes-drop" class="drag-drop" src="images/star-12.png" alt="capricon"></div>
+				</div>
 			</div>
+		</nav>
+		<div class="landing">
+			<h1 class="title">the zodiac</h1>
+			<p class="sub-title">12 constellation</p>
 		</div>
-		<div class="adobe-block">
-			<a href="https://www.adobe.com/" target="_blank">adobe</a>
-			<div class="adobe">
-				
-			</div>
+		<div class="section">
+			<div class="space space-1"></div>
+			<div class="aquarius"><div class="dropzone"></div></div>
+			<div class="pisces"><div class="dropzone"></div></div>
 		</div>
-		<div class="vans-block">
-			<a href="https://www.vans.ca/" target="_blank">vans</a>
-			<div class="vans">
-				
-			</div>
+		<div class="section">
+			<div class="space space-2"></div>
+			<div class="aries"><div class="dropzone"></div></div>
+			<div class="taurus"><div class="dropzone"></div></div>
 		</div>
-		<div class="adidas-block">
-			<a href="https://www.vans.ca/" target="_blank">adidas</a>
-			<div class="adidas">
-				
-			</div>
+		<div class="section">
+			<div class="space space-3"></div>
+			<div class="gemini"><div class="dropzone"></div></div>
+			<div class="cancer"><div class="dropzone"></div></div>
 		</div>
+		<div class="section">
+			<div class="space space-4"></div>
+			<div class="leo"><div class="dropzone"></div></div>
+			<div class="virgo"><div class="dropzone"></div></div>
+		</div>
+		<div class="section">
+			<div class="space space-5"></div>
+			<div class="libra"><div class="dropzone"></div></div>
+			<div class="scorpio"><div class="dropzone"></div></div>
+		</div>
+		<div class="section">
+			<div class="space space-6"></div>
+			<div class="sagittarius"><div class="dropzone"></div></div>
+			<div class="capricon"><div class="dropzone"></div></div>
+		</div>
+		<div class="footer">
+			<h2 class="ending">Thanks!</h2>
+			<p class="name">June Jung</p>
+		</div>
+		<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>
