@@ -1,171 +1,105 @@
+$(window).on('load', function(){
+  setTimeout(removeLoader, 2300); //wait for page load PLUS two seconds.
+});
+function removeLoader(){
+    $( "#loading" ).fadeOut(100, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loading" ).remove(); //makes page more lightweight 
+  });  
+}
 
-$(window).bind("load resize scroll",function(e) {
-    var y = $(window).scrollTop();
- 
-    $(".space-1").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6) + 'px');
-    $(".aquarius").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9) + 'px');
-    $(".pisces").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4) + 'px');
+// $('.timesquare1').click(function(e) {
+//   var mouseX = e.clientX;
+//   var mouseY = e.clientY;
+//   if(mouseX >= 666 && mouseX <= 689 && mouseY >= 450 && mouseY <= 486) {
 
+//     console.log("clicked");
+//     $('.findN h3').css("display", "block");
+//   } else if(mouseX >= 694 && mouseX <= 699 && mouseY >= 764 && mouseY <= 779) {
+//     $('.findI h3').css("display", "block");
+//   } else if(mouseX >= 1060 && mouseX <= 1080 && mouseY >= 854 && mouseY <= 869) {
+//     $('.findK h3').css("display", "block");
+//   } else if(mouseX >= 935 && mouseX <= 947 && mouseY >= 623 && mouseY <= 643) {
+//     $('.findE h3').css("display", "block");
+//   }
+// });
 
+$('.timesquare1').click(function(e) {
+  var target = e.target;
+  var rect = target.getBoundingClientRect();
+  var x = e.clientX - rect.left;
+  var y = e.clientY - rect.top;
+  console.log(x + " , " + y);
+  if(x > 665 && x < 691) {
+    console.log("x is satisfied");
+    if (y > 410 && y < 453) {
 
-    $(".space-2").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6 + 250) + 'px');
-    $(".aries").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9 + 150) + 'px');
-    $(".taurus").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4 + 320) + 'px');
-
-
-
-    $(".space-3").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6 + 500) + 'px');
-    $(".gemini").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9 + 300) + 'px');
-    $(".cancer").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4 + 640) + 'px');
-
-
-
-    $(".space-4").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6 + 750) + 'px');
-    $(".leo").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9 + 430) + 'px');
-    $(".virgo").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4 + 960) + 'px');
-
-
-
-    $(".space-5").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6 + 1000) + 'px');
-    $(".libra").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9 + 580) + 'px');
-    $(".scorpio").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4 + 1280) + 'px');
-
-
-
-    $(".space-6").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 6 + 1250) + 'px');
-    $(".sagittarius").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' +  parseInt(-y / 9 + 720) + 'px');
-    $(".capricon").filter(function() {
-        return $(this).offset().top < (y + $(window).height()) &&
-               $(this).offset().top + $(this).height() > y;
-    }).css('background-position', '0px ' + parseInt(-y / 4 + 1600) + 'px');
-
+    console.log("clicked");
+    $('.findN h3').css("display", "block");
+    } else {
+      alert("Getting close");
+    }
+  } else {
+    alert("Not even close");
+  }
 });
 
-function myFunction() {
+$(".timesquare2").click(function(e) {
+  var target = e.target;
+  var rect = target.getBoundingClientRect();
+  var x = e.clientX - rect.left;
+  var y = e.clientY - rect.top;
+  console.log(x + " , " + y);
+  if(x > 690 && x < 700) {
+    console.log("x is satisfied");
+    if (y > 725 && y < 740) {
 
-	var star = document.querySelector('.menu');
-	if(star.style.display === "block") {
-		star.style.display = "none";
-	} else {
-		star.style.display = "block";
-	}
-}
-
-function dragMoveListener (event) {
-  var target = event.target
-  // keep the dragged position in the data-x/data-y attributes
-  var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx
-  var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy
-
-  // translate the element
-  target.style.webkitTransform =
-    target.style.transform =
-      'translate(' + x + 'px, ' + y + 'px)'
-
-  // update the posiion attributes
-  target.setAttribute('data-x', x)
-  target.setAttribute('data-y', y)
-}
-
-
-interact('.dropzone').dropzone({
-  // only accept elements matching this CSS selector
-  accept: '#yes-drop',
-  // Require a 75% element overlap for a drop to be possible
-  overlap: 0.75,
-
-  // listen for drop related events:
-
-  ondropactivate: function (event) {
-    // add active dropzone feedback
-    event.target.classList.add('drop-active')
-  },
-  ondragenter: function (event) {
-    var draggableElement = event.relatedTarget
-    var dropzoneElement = event.target
-
-    // feedback the possibility of a drop
-    dropzoneElement.classList.add('drop-target')
-    draggableElement.classList.add('can-drop')
-    draggableElement.textContent = 'Dragged in'
-  },
-  ondragleave: function (event) {
-    // remove the drop feedback style
-    event.target.classList.remove('drop-target')
-    event.relatedTarget.classList.remove('can-drop')
-    event.relatedTarget.textContent = 'Dragged out'
-  },
-  ondrop: function (event) {
-    console.log("Dropped");
-  },
-  ondropdeactivate: function (event) {
-    // remove active dropzone feedback
-    event.target.classList.remove('drop-active')
-    event.target.classList.remove('drop-target')
+    console.log("clicked");
+    $('.findI h3').css("display", "block");
+    } else {
+      alert("Getting close");
+    }
+  } else {
+    alert("Not even close");
   }
-})
+});
 
+$(".timesquare4").click(function(e) {
+  var target = e.target;
+  var rect = target.getBoundingClientRect();
+  var x = e.clientX - rect.left;
+  var y = e.clientY - rect.top;
+  console.log(x + " , " + y);
+  if(x > 815 && x < 830) {
+    console.log("x is satisfied");
+    if (y > 588 && y < 609) {
 
-interact('.drag-drop')
-  .draggable({
-    inertia: true,
-    modifiers: [
-      interact.modifiers.restrictRect({
-        restriction: '.section.dropzone'
-      })
-    ],
-    autoScroll: true,
-    // dragMoveListener from the dragging demo above
-    listeners: { move: dragMoveListener }
-  })
+    console.log("clicked");
+    $('.findE h3').css("display", "block");
+    } else{
+      alert("Getting close");
+    }
+  } else {
+    alert("Not even close");
+  }
+});
+
+$(".timesquare5").click(function(e) {
+  var target = e.target;
+  var rect = target.getBoundingClientRect();
+  var x = e.clientX - rect.left;
+  var y = e.clientY - rect.top;
+  console.log(x + " , " + y);
+  if(x > 40 && x < 60) {
+    console.log("x is satisfied");
+    if (y > 815 && y < 831) {
+
+    console.log("clicked");
+    $('.findK h3').css("display", "block");
+    } else{
+      alert("Getting close");
+    }
+  } else {
+    alert("Not even close");
+  }
+});
