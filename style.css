@@ -11,6 +11,82 @@ body {
 	position: relative;
 }
 
+.flex-container {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+h4 {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	color: white;
+	background-color: black;
+	padding: 15px 20px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	z-index: 10;
+}
+
+/*index*/
+
+.container {
+	width: 600px;
+	padding: 50px 0 70px 0;
+	align-self: center;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.instruction {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.instruction h3, h2, img{
+	margin: 20px 0;
+}
+
+.instruction h3 {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+.instruction p {
+	text-align: left;
+	font-size: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.instruction a {
+	padding: 15px 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 8px;
+	margin-top: 40px;
+}
+
+.instruction a:hover {
+	background: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+/*first page*/
+
 
 #loading {
 	width: 100vw;
@@ -42,10 +118,15 @@ body {
 	text-align: center;
 }
 
+.menu div {
+	text-align: center;
+}
+
 .menu div h3 {
-	font-size: 12px;
-	margin-bottom: 5px;
+	font-size: 6px;
+	margin: 5px auto;
 	display: none;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .menu img {
@@ -112,6 +193,131 @@ body {
 
 .horizontal-scroll-wrapper .timesquare5 {
 	background: url("images/timesquare5.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*second*/
+
+.horizontal-scroll-wrapper .shibuya1 {
+	background: url("images/shibuya1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .shibuya2 {
+	background: url("images/shibuya2.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .shibuya3 {
+	background: url("images/shibuya3.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .shibuya4 {
+	background: url("images/shibuya4.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .shibuya5 {
+	background: url("images/shibuya5.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .shibuya6 {
+	background: url("images/shibuya6.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*third*/
+
+.complete {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.end {
+	display: none;
+	position: fixed;
+	z-index: 10;
+	align-self: center;
+	background: white;
+	border: 4px solid black;
+	border-radius: 15px;
+	width: 600px;
+	margin: 0;
+	padding: 20px 140px 50px 140px;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+.end h2 {
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.end h3 {
+	margin: 10px 0;
+	font-size: 8px;
+	line-height: 1.5;
+}
+
+.end a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 8px;
+}
+
+.end a:hover {
+	background: black;
+	color: white;
+}
+
+.horizontal-scroll-wrapper .london1 {
+	background: url("images/london1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .london2 {
+	background: url("images/london2.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .london3 {
+	background: url("images/london3.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .london4 {
+	background: url("images/london4.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .london5 {
+	background: url("images/london5.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.horizontal-scroll-wrapper .london6 {
+	background: url("images/london6.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 }
